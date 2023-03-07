@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gino",
+      "type": "admin",
+      "pass": "1"
+    },
+    {
+      "id": 2,
+      "name": "Lillo",
+      "type": "user",
+      "pass": "2"
+    },
+    {
+      "name": "Lilla",
+      "type": "user",
+      "pass": "3",
+      "id": 3
+    },
+    {
+      "name": "Viola",
+      "pass": "4",
+      "type": "user",
+      "id": 4
+    },
+    {
+      "name": "Marta",
+      "pass": "5",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "name": "Gina",
+      "pass": "6",
+      "type": "user",
+      "id": 6
+    },
+    {
+      "name": "Homer",
+      "pass": "7",
+      "type": "user",
+      "id": 7
+    },
+    {
+      "name": "Lilla",
+      "type": "user",
+      "pass": "5",
+      "id": 8
+    },
+    {
+      "name": "Prova",
+      "pass": "4",
+      "type": "user",
+      "id": 9
+    }
+  ]
+}
