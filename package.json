@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "json-server --watch db.json --port 3004",
-    "server_natale_2022": "json-server --watch db_natale_2022.json --port 3005"
+    "server_natale_2022": "json-server --watch db_natale_2022.json --port 3005",
+    "server_userlist": "json-server --watch db_userlist_app.json --port 3002"
   },
   "repository": {
     "type": "git",
