@@ -2,63 +2,995 @@
   "users": [
     {
       "id": 1,
+      "username": "Gino",
       "name": "Gino",
+      "last_name": "Rossi",
       "type": "admin",
-      "pass": "1"
+      "password": "1",
+      "sex": "male",
+      "birthdate": "1987-06-05T03:46:04.889Z"
     },
     {
-      "id": 2,
+      "id": 1,
+      "username": "Lillo",
       "name": "Lillo",
-      "type": "user",
+      "last_name": "Verdi",
+      "type": "customer",
+      "password": "1",
+      "sex": "male",
+      "birthdate": "1985-07-07T03:46:04.889Z",
       "pass": "2"
     },
+
     {
-      "name": "Lilla",
-      "type": "user",
-      "pass": "3",
-      "id": 3
+      "id": 2,
+      "username": "Pedro2",
+      "name": "Pedro",
+      "last_name": "Bednar",
+      "password": "Dmu0WoL6UgbUCq6",
+      "type": "admin",
+      "sex": "male",
+      "birthdate": "1960-06-05T03:46:04.889Z"
     },
     {
-      "name": "Viola",
-      "pass": "4",
-      "type": "user",
-      "id": 4
+      "id": 3,
+      "username": "Alicia3",
+      "name": "Alicia",
+      "last_name": "Reichert",
+      "password": "PWFIb5eEVpycCJC",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1977-09-19T05:01:53.246Z"
     },
     {
-      "name": "Marta",
-      "pass": "5",
-      "type": "user",
-      "id": 5
+      "id": 4,
+      "username": "Joel4",
+      "name": "Joel",
+      "last_name": "Abshire",
+      "password": "nkIHcJ1BVlaI70L",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "2000-08-28T02:52:53.589Z"
     },
     {
+      "id": 5,
+      "username": "Toni5",
+      "name": "Toni",
+      "last_name": "Zieme",
+      "password": "m8gJxrNDPHoKyRk",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2000-11-26T08:01:14.057Z"
+    },
+    {
+      "id": 6,
+      "username": "Arnold6",
+      "name": "Arnold",
+      "last_name": "Dickens",
+      "password": "DpjNczelUEy6WJY",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1965-09-08T14:38:37.211Z"
+    },
+    {
+      "id": 7,
+      "username": "Lorene7",
+      "name": "Lorene",
+      "last_name": "Mohr",
+      "password": "RGAQlTJPvdPHyy4",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1998-02-02T16:39:15.457Z"
+    },
+    {
+      "id": 8,
+      "username": "Saul8",
+      "name": "Saul",
+      "last_name": "Gulgowski",
+      "password": "WB3SjxL_mUXXfno",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "2002-02-02T00:41:13.898Z"
+    },
+    {
+      "id": 9,
+      "username": "Ruth9",
+      "name": "Ruth",
+      "last_name": "Kris",
+      "password": "pIObGEdKVqOqwew",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1989-06-10T08:33:05.838Z"
+    },
+    {
+      "id": 10,
+      "username": "Tomas10",
+      "name": "Tomas",
+      "last_name": "Torphy",
+      "password": "e1W4GwDJTpSv8Ts",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1987-12-19T18:53:21.607Z"
+    },
+    {
+      "id": 11,
+      "username": "Delores11",
+      "name": "Delores",
+      "last_name": "Windler",
+      "password": "BOkJfk4Z0azs9jW",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1982-07-26T15:18:41.331Z"
+    },
+    {
+      "id": 12,
+      "username": "Aubrey12",
+      "name": "Aubrey",
+      "last_name": "Ledner",
+      "password": "eUQ6kI18y7kSjCQ",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1968-12-26T02:16:21.550Z"
+    },
+    {
+      "id": 13,
+      "username": "Josephine13",
+      "name": "Josephine",
+      "last_name": "Okuneva",
+      "password": "A_y0qCBZjiuZ7Ij",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1980-09-07T18:48:09.006Z"
+    },
+    {
+      "id": 14,
+      "username": "Marshall14",
+      "name": "Marshall",
+      "last_name": "Douglas",
+      "password": "ZLMzwrsaxrC2vNq",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1967-02-08T11:41:09.658Z"
+    },
+    {
+      "id": 15,
+      "username": "Ollie15",
+      "name": "Ollie",
+      "last_name": "Okuneva",
+      "password": "De7KWv5HkScpUqE",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1963-09-26T01:55:40.879Z"
+    },
+    {
+      "id": 16,
+      "username": "Bradley16",
+      "name": "Bradley",
+      "last_name": "Bosco",
+      "password": "7ES58HlKLEc3wIQ",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1972-10-21T08:03:22.444Z"
+    },
+    {
+      "id": 17,
+      "username": "Renee17",
+      "name": "Renee",
+      "last_name": "Marks",
+      "password": "NkKy1FkDnbYr7Tq",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2000-02-04T14:04:20.909Z"
+    },
+    {
+      "id": 18,
+      "username": "Randy18",
+      "name": "Randy",
+      "last_name": "Conn",
+      "password": "ROk0bCmuvzfPW7u",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1973-08-11T11:42:32.254Z"
+    },
+    {
+      "id": 19,
+      "username": "Brittany19",
+      "name": "Brittany",
+      "last_name": "Lueilwitz",
+      "password": "GVIjVGdv6xpMziZ",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2004-01-11T02:48:41.849Z"
+    },
+    {
+      "id": 20,
+      "username": "Claude20",
+      "name": "Claude",
+      "last_name": "Kshlerin",
+      "password": "zn5UMmW2Slb4JKA",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1992-06-10T20:47:57.050Z"
+    },
+    {
+      "id": 21,
+      "username": "Tasha21",
+      "name": "Tasha",
+      "last_name": "Mann",
+      "password": "cslLGwPaCm1R4t3",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1998-10-11T10:43:58.510Z"
+    },
+    {
+      "id": 22,
+      "username": "Jerald22",
+      "name": "Jerald",
+      "last_name": "Kling",
+      "password": "yhm7wXfRpCjEwxr",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1974-11-23T04:52:39.000Z"
+    },
+    {
+      "id": 23,
+      "username": "Josefina23",
+      "name": "Josefina",
+      "last_name": "Rogahn",
+      "password": "3Ja359BQHEnJqyJ",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1980-02-18T14:04:17.836Z"
+    },
+    {
+      "id": 24,
+      "username": "Ross24",
+      "name": "Ross",
+      "last_name": "Lockman",
+      "password": "_Hoxe7nuLflZNt6",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1960-10-13T11:37:04.234Z"
+    },
+    {
+      "id": 25,
+      "username": "Carmen25",
+      "name": "Carmen",
+      "last_name": "Marks",
+      "password": "tv8bShgPwdA1g2Z",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1974-11-13T10:28:36.428Z"
+    },
+    {
+      "id": 26,
+      "username": "Jason26",
+      "name": "Jason",
+      "last_name": "Kemmer",
+      "password": "nQC1Ivk56BHq1rV",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1973-04-25T23:16:48.103Z"
+    },
+    {
+      "id": 27,
+      "username": "Laura27",
+      "name": "Laura",
+      "last_name": "Rohan",
+      "password": "aYon9USHTXLT0LR",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1983-02-09T11:50:36.042Z"
+    },
+    {
+      "id": 28,
+      "username": "Tomas28",
+      "name": "Tomas",
+      "last_name": "Hoppe",
+      "password": "qdBYacIm1vzlKBs",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1968-06-05T10:14:28.933Z"
+    },
+    {
+      "id": 29,
+      "username": "Hannah29",
+      "name": "Hannah",
+      "last_name": "Green",
+      "password": "h8F08aHoJQmB78r",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1999-05-26T07:35:30.653Z"
+    },
+    {
+      "id": 30,
+      "username": "Felipe30",
+      "name": "Felipe",
+      "last_name": "Von",
+      "password": "Acq_ujF7AIevxyg",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1974-10-29T14:28:36.546Z"
+    },
+    {
+      "id": 31,
+      "username": "Marjorie31",
+      "name": "Marjorie",
+      "last_name": "Konopelski",
+      "password": "052IvANoORfjB2Q",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1966-12-27T22:54:00.963Z"
+    },
+    {
+      "id": 32,
+      "username": "Nathan32",
+      "name": "Nathan",
+      "last_name": "Stehr",
+      "password": "p2n6mvpzd329rMX",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1963-08-01T23:11:39.518Z"
+    },
+    {
+      "id": 33,
+      "username": "Anita33",
+      "name": "Anita",
+      "last_name": "Emmerich",
+      "password": "yM03sAX4SU9MbrI",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2003-07-22T05:30:32.740Z"
+    },
+    {
+      "id": 34,
+      "username": "Alvin34",
+      "name": "Alvin",
+      "last_name": "Zieme",
+      "password": "b3w5nj00HjKgVZO",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1960-04-13T13:21:47.539Z"
+    },
+    {
+      "id": 35,
+      "username": "Gina35",
       "name": "Gina",
-      "pass": "6",
-      "type": "user",
-      "id": 6
+      "last_name": "Wiza",
+      "password": "UEbElHuJk13q9N0",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1985-01-24T23:14:36.368Z"
     },
     {
-      "name": "Homer",
-      "pass": "7",
-      "type": "user",
-      "id": 7
+      "id": 36,
+      "username": "Randy36",
+      "name": "Randy",
+      "last_name": "Goodwin",
+      "password": "7G9JCZREp6mkm9B",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1989-09-16T00:35:30.055Z"
     },
     {
-      "name": "Lilla",
-      "type": "user",
-      "pass": "5",
-      "id": 8
+      "id": 37,
+      "username": "Judith37",
+      "name": "Judith",
+      "last_name": "Frami",
+      "password": "BL5xN2hECrkNZ5d",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1997-09-07T09:11:56.139Z"
     },
     {
-      "name": "Prova",
-      "pass": "4",
-      "type": "user",
-      "id": 9
+      "id": 38,
+      "username": "Abraham38",
+      "name": "Abraham",
+      "last_name": "West",
+      "password": "xGodBelo0XH4LLh",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1966-12-16T09:56:59.765Z"
     },
     {
-      "name": "mart",
-      "pass": "s",
-      "type": "user",
-      "id": 10
+      "id": 39,
+      "username": "Christie39",
+      "name": "Christie",
+      "last_name": "Blick",
+      "password": "OVHbHVBTVAi2l1t",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1979-05-21T16:04:10.971Z"
+    },
+    {
+      "id": 40,
+      "username": "Dana40",
+      "name": "Dana",
+      "last_name": "Wolff",
+      "password": "ljRHnkHID0YDTTU",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "2005-01-23T02:45:43.642Z"
+    },
+    {
+      "id": 41,
+      "username": "Marcia41",
+      "name": "Marcia",
+      "last_name": "Legros",
+      "password": "JZ1tTAVdn_f94LQ",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1987-09-15T08:59:13.556Z"
+    },
+    {
+      "id": 42,
+      "username": "Donnie42",
+      "name": "Donnie",
+      "last_name": "Gulgowski",
+      "password": "2symfGOGCSwn9d6",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1972-01-05T04:44:40.338Z"
+    },
+    {
+      "id": 43,
+      "username": "Danielle43",
+      "name": "Danielle",
+      "last_name": "Dare",
+      "password": "VE5YXddHl_6fs2J",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2001-11-01T20:24:24.520Z"
+    },
+    {
+      "id": 44,
+      "username": "Brian44",
+      "name": "Brian",
+      "last_name": "Muller",
+      "password": "s2AxsNRnWYwOKxw",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1966-09-05T00:57:13.400Z"
+    },
+    {
+      "id": 45,
+      "username": "Dolores45",
+      "name": "Dolores",
+      "last_name": "Volkman",
+      "password": "gYcD22hGlskIkku",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2005-01-03T09:39:37.803Z"
+    },
+    {
+      "id": 46,
+      "username": "Randolph46",
+      "name": "Randolph",
+      "last_name": "Spencer",
+      "password": "M9lBpbruIDUG1L7",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1976-07-22T18:55:30.984Z"
+    },
+    {
+      "id": 47,
+      "username": "Allison47",
+      "name": "Allison",
+      "last_name": "Hackett",
+      "password": "kBrem3hLg43bIh6",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1981-11-23T10:55:07.232Z"
+    },
+    {
+      "id": 48,
+      "username": "Sergio48",
+      "name": "Sergio",
+      "last_name": "Bradtke",
+      "password": "I1C7TDXFfQdmIrW",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1977-12-26T14:33:38.551Z"
+    },
+    {
+      "id": 49,
+      "username": "Jana49",
+      "name": "Jana",
+      "last_name": "Gerhold",
+      "password": "01jC4z89fj503Va",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1981-04-02T13:59:01.029Z"
+    },
+    {
+      "id": 50,
+      "username": "Calvin50",
+      "name": "Calvin",
+      "last_name": "Kessler",
+      "password": "_54w3KQJ6kwleEO",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1966-07-03T02:20:15.218Z"
+    },
+    {
+      "id": 51,
+      "username": "Heather51",
+      "name": "Heather",
+      "last_name": "Larson",
+      "password": "4_DpmmW5RMykg6y",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2004-01-02T17:20:10.614Z"
+    },
+    {
+      "id": 52,
+      "username": "Jay52",
+      "name": "Jay",
+      "last_name": "Connelly",
+      "password": "OL6DnTBbxP4UeqR",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "2001-12-09T07:30:47.761Z"
+    },
+    {
+      "id": 53,
+      "username": "Meredith53",
+      "name": "Meredith",
+      "last_name": "Frami",
+      "password": "73yboNAFc9qJuWK",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1994-06-17T22:51:46.865Z"
+    },
+    {
+      "id": 54,
+      "username": "Roosevelt54",
+      "name": "Roosevelt",
+      "last_name": "Lebsack",
+      "password": "LImrAKwFWljDOrb",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1963-10-04T06:35:53.686Z"
+    },
+    {
+      "id": 55,
+      "username": "Natalie55",
+      "name": "Natalie",
+      "last_name": "Gibson",
+      "password": "6Aw8bHQ64Mn6PPL",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1970-03-27T16:39:46.504Z"
+    },
+    {
+      "id": 56,
+      "username": "Reginald56",
+      "name": "Reginald",
+      "last_name": "Hickle",
+      "password": "83G3N2OxoUp5s9T",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1989-10-22T00:39:55.381Z"
+    },
+    {
+      "id": 57,
+      "username": "Monica57",
+      "name": "Monica",
+      "last_name": "Bradtke",
+      "password": "FKBS43nGmIu1CC8",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2000-03-20T04:09:01.331Z"
+    },
+    {
+      "id": 58,
+      "username": "Tommie58",
+      "name": "Tommie",
+      "last_name": "Wisoky",
+      "password": "SaiU6226HmgDuDh",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1961-02-12T22:40:41.704Z"
+    },
+    {
+      "id": 59,
+      "username": "Jennifer59",
+      "name": "Jennifer",
+      "last_name": "Nicolas",
+      "password": "Ctg3oHIJFn5Kg6C",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1989-03-07T17:04:10.428Z"
+    },
+    {
+      "id": 60,
+      "username": "Sylvester60",
+      "name": "Sylvester",
+      "last_name": "Raynor",
+      "password": "YUnLCYaGtyybdyZ",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1969-10-27T23:15:41.853Z"
+    },
+    {
+      "id": 61,
+      "username": "Yvonne61",
+      "name": "Yvonne",
+      "last_name": "Schuppe",
+      "password": "2K4iMId3s8EP70O",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1958-05-22T03:21:43.163Z"
+    },
+    {
+      "id": 62,
+      "username": "Elbert62",
+      "name": "Elbert",
+      "last_name": "Powlowski",
+      "password": "K3gZDUMqmmuGgH_",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1999-01-17T16:38:38.501Z"
+    },
+    {
+      "id": 63,
+      "username": "Meghan63",
+      "name": "Meghan",
+      "last_name": "Jaskolski",
+      "password": "gZmO7QnxARY4sTn",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1964-06-14T04:11:36.593Z"
+    },
+    {
+      "id": 64,
+      "username": "Andres64",
+      "name": "Andres",
+      "last_name": "Leuschke",
+      "password": "bkL3rYnS6pJa1ib",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1977-11-22T01:14:17.174Z"
+    },
+    {
+      "id": 65,
+      "username": "Belinda65",
+      "name": "Belinda",
+      "last_name": "Breitenberg",
+      "password": "6NCDHnPlqUtaCdR",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1992-10-09T03:42:42.064Z"
+    },
+    {
+      "id": 66,
+      "username": "Johnnie66",
+      "name": "Johnnie",
+      "last_name": "Gorczany",
+      "password": "GdyrX_me3iyVQ5o",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1976-03-23T13:48:31.276Z"
+    },
+    {
+      "id": 67,
+      "username": "Courtney67",
+      "name": "Courtney",
+      "last_name": "Greenholt",
+      "password": "2PzhRahppNN7nWS",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1993-12-29T05:36:17.072Z"
+    },
+    {
+      "id": 68,
+      "username": "Steve68",
+      "name": "Steve",
+      "last_name": "Blick",
+      "password": "n4GQaojUQcvPDoQ",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1978-07-20T20:12:07.223Z"
+    },
+    {
+      "id": 69,
+      "username": "Kristi69",
+      "name": "Kristi",
+      "last_name": "Heller",
+      "password": "yIZiKgsbXfTk5PX",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1995-08-15T08:22:47.736Z"
+    },
+    {
+      "id": 70,
+      "username": "Alejandro70",
+      "name": "Alejandro",
+      "last_name": "Schuster",
+      "password": "X6bgl3gwSrALNhK",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1989-12-27T13:01:14.103Z"
+    },
+    {
+      "id": 71,
+      "username": "Chelsea71",
+      "name": "Chelsea",
+      "last_name": "Gerlach",
+      "password": "D9WIjynFc3JUZOQ",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1994-10-29T07:44:13.086Z"
+    },
+    {
+      "id": 72,
+      "username": "Cameron72",
+      "name": "Cameron",
+      "last_name": "Moen",
+      "password": "8Q73AAKGNeKBQce",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1972-02-03T21:18:46.727Z"
+    },
+    {
+      "id": 73,
+      "username": "Monique73",
+      "name": "Monique",
+      "last_name": "Labadie",
+      "password": "XMKsrqYUXpmsh78",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1978-09-21T01:50:52.039Z"
+    },
+    {
+      "id": 74,
+      "username": "Jimmie74",
+      "name": "Jimmie",
+      "last_name": "Kunze",
+      "password": "QkWNRkAWeqy3K8p",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1992-05-18T01:07:12.091Z"
+    },
+    {
+      "id": 75,
+      "username": "Dorothy75",
+      "name": "Dorothy",
+      "last_name": "Treutel",
+      "password": "hJsQUVt3XPd8UX2",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "2002-07-06T16:49:04.606Z"
+    },
+    {
+      "id": 76,
+      "username": "Hugo76",
+      "name": "Hugo",
+      "last_name": "Buckridge",
+      "password": "NJNpGL0IbYnZ6uG",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1977-10-13T04:25:48.546Z"
+    },
+    {
+      "id": 77,
+      "username": "Cora77",
+      "name": "Cora",
+      "last_name": "Cremin",
+      "password": "Y8VVZR189Ti6wKR",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1960-05-18T17:03:34.310Z"
+    },
+    {
+      "id": 78,
+      "username": "Marvin78",
+      "name": "Marvin",
+      "last_name": "Luettgen",
+      "password": "UJi9umkkN10HuII",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1968-04-01T12:34:01.008Z"
+    },
+    {
+      "id": 79,
+      "username": "Cecelia79",
+      "name": "Cecelia",
+      "last_name": "Kshlerin",
+      "password": "5yUXPlaU26QFsc_",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1993-04-02T17:03:19.426Z"
+    },
+    {
+      "id": 80,
+      "username": "Jeremiah80",
+      "name": "Jeremiah",
+      "last_name": "Kassulke",
+      "password": "qhHJxEQDMtCWFeV",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1989-09-13T10:23:44.952Z"
+    },
+    {
+      "id": 81,
+      "username": "Christine81",
+      "name": "Christine",
+      "last_name": "Gislason",
+      "password": "_iRFBOtV6Yn11er",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1975-08-28T17:00:49.404Z"
+    },
+    {
+      "id": 82,
+      "username": "Tim82",
+      "name": "Tim",
+      "last_name": "Schmidt",
+      "password": "mbkyT9g3WhN6RTT",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1982-03-12T08:22:00.590Z"
+    },
+    {
+      "id": 83,
+      "username": "Paula83",
+      "name": "Paula",
+      "last_name": "Lebsack",
+      "password": "aMFoq9wIC9LKuDG",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1991-08-19T17:11:32.819Z"
+    },
+    {
+      "id": 84,
+      "username": "Allen84",
+      "name": "Allen",
+      "last_name": "Ziemann",
+      "password": "Hma5hx5qN4dpYU5",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1989-01-26T04:51:29.700Z"
+    },
+    {
+      "id": 85,
+      "username": "Pearl85",
+      "name": "Pearl",
+      "last_name": "McClure",
+      "password": "TLarITcEZYREXh7",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1966-10-28T16:18:36.459Z"
+    },
+    {
+      "id": 86,
+      "username": "Wesley86",
+      "name": "Wesley",
+      "last_name": "Murray",
+      "password": "h9azTLR_gcC_1xI",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1991-04-07T11:21:08.415Z"
+    },
+    {
+      "id": 87,
+      "username": "Lorraine87",
+      "name": "Lorraine",
+      "last_name": "Champlin",
+      "password": "raWPIGbCSKAmCoM",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1981-05-05T08:20:24.521Z"
+    },
+    {
+      "id": 88,
+      "username": "Marshall88",
+      "name": "Marshall",
+      "last_name": "Kohler",
+      "password": "w4o2UyXLqZNHCHy",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1972-09-20T17:19:18.202Z"
+    },
+    {
+      "id": 89,
+      "username": "Jill89",
+      "name": "Jill",
+      "last_name": "Monahan",
+      "password": "W2bTuJjkOrlwUvu",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1978-04-28T19:36:31.916Z"
+    },
+    {
+      "id": 90,
+      "username": "Neil90",
+      "name": "Neil",
+      "last_name": "Deckow",
+      "password": "VWxashHmF2iMuvX",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1998-02-18T09:05:33.616Z"
+    },
+    {
+      "id": 91,
+      "username": "Jessica91",
+      "name": "Jessica",
+      "last_name": "Lebsack",
+      "password": "VrXJitMCW64b79a",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1958-01-22T09:15:34.360Z"
+    },
+    {
+      "id": 92,
+      "username": "Melvin92",
+      "name": "Melvin",
+      "last_name": "Leuschke",
+      "password": "3DsAChB4xYQicN5",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1990-09-07T04:44:49.142Z"
+    },
+    {
+      "id": 93,
+      "username": "Patty93",
+      "name": "Patty",
+      "last_name": "Becker",
+      "password": "rDaKV0ORcTtfZNi",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1998-03-30T11:21:00.978Z"
+    },
+    {
+      "id": 94,
+      "username": "Stuart94",
+      "name": "Stuart",
+      "last_name": "Hodkiewicz",
+      "password": "neC_DRXUCUGeVaC",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1967-11-20T10:19:40.641Z"
+    },
+    {
+      "id": 95,
+      "username": "Harriet95",
+      "name": "Harriet",
+      "last_name": "Wilkinson",
+      "password": "lLjWMSZF7zTESng",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1970-12-04T10:42:41.374Z"
+    },
+    {
+      "id": 96,
+      "username": "Ross96",
+      "name": "Ross",
+      "last_name": "Mertz",
+      "password": "U2DcpaFZYmvxPFt",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1996-05-01T16:11:30.453Z"
+    },
+    {
+      "id": 97,
+      "username": "Kelli97",
+      "name": "Kelli",
+      "last_name": "Simonis",
+      "password": "HaPQeuLSoQeC87G",
+      "type": "customer",
+      "sex": "female",
+      "birthdate": "1964-03-27T02:46:15.830Z"
+    },
+    {
+      "id": 98,
+      "username": "Bernard98",
+      "name": "Bernard",
+      "last_name": "Kessler",
+      "password": "o8hVsYfMyKkrOQh",
+      "type": "customer",
+      "sex": "male",
+      "birthdate": "1968-05-13T09:13:44.319Z"
     }
   ]
 }
