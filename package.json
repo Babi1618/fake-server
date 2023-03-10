@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch db.json --port 3004",
-    "server_natale_2022": "json-server --watch db_natale_2022.json --port 3005",
-    "server_userlist": "json-server --watch db_userlist_app.json --port 3002"
+    "server": "json-server --watch db.json --port 3001",
+    "server_userlist": "json-server --watch db_userlist_app.json --port 3002",
+    "server_app_login": "json-server --watch db_app_login.json --port 3004",
+    "server_natale_2022": "json-server --watch db_natale_2022.json --port 3005"
   },
   "repository": {
     "type": "git",
